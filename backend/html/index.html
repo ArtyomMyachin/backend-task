@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Регистрация пользователя</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<h1>Регистрация пользователя</h1>
+	<form style="border: 1px solid black; width:25%; padding:10px;" action="registered.html">
+		Имя:<br/>
+		<input type="text" name="name" placeholder="Иван" />
+		<br/><br/>
+		Фамилия:<br/>
+		<input type="text" name="surname" placeholder="Петров" />
+		<br/><br/>
+		Почта:<br/>
+		<input type="text" name="email" placeholder="mail@example.com" />
+		<br/><br/>
+		<hr width="100%"/>
+		Курсы:<br/>
+		<input type="radio" name="courses"> Drupal 7 <br/>
+		<input type="radio" name="courses"> Drupal 8 <br/>
+		<br/><br/>
+		Дополнительная информация:<br/>
+		<textarea cols="50" rows="10">Знание PHP, CSS, Javascript и SQL
+		</textarea>
+		<br/><br/>
+		<input type="submit" name="register" method="post" value="Отправить" />
+		<input type="reset" name="clear" value="Очистить" />
+	</form>
+</body>
+</html>

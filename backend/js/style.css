@@ -1,0 +1,16 @@
+.reg {
+	margin: 50px auto;
+	width: 600px;
+	border: 2px solid black;
+	background: #f9f9f9;
+	padding: 50px 200px;
+	box-sizing: border-box;
+}
+
+.in-form {
+	margin: 50px auto;
+}
+
+.invisible {
+	visibility: hidden;
+}

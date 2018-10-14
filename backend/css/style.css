@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+#main {
+	background: #f9f9f9;
+	padding: 30px;
+	color: #473b42;
+	margin: 50px auto;
+	width: 1200px;
+	height: 600px;
+	box-sizing: border-box;
+}
+
+.header {
+	border-bottom: 2px solid #473b42;
+	height: 70px;
+}
+
+h1 {
+	float: left;
+	width: 50%;
+	font: bold 30pt sans-serif;
+	box-sizing: border-box;
+}
+
+.arrows {
+	float: left;
+	text-align: right;
+	font: bolder 24pt sans-serif;
+	padding: 10px 20px;
+	background: #fed104;
+	border-radius: 30px;
+}
+
+.a1 {
+	margin-left: 320px;
+}
+
+.pages {
+	float: left;
+	font: bold 18pt sans-serif;
+	letter-spacing: 5px;
+	padding: 15px 20px 20px 20px;
+}
+
+.column {
+	margin-top: 30px;
+	width: 48%;
+}
+
+.c1 {
+	float: left;
+	background: url("port_moresby.jpg");
+	background-size: cover;
+}
+
+.c2 {
+	float: right;
+	background: url("png_citizen.jpg");
+	background-size: cover;
+}
+
+.content-text {
+	color: #eaba24;
+	box-sizing: border-box;
+	height: 300px;
+}
+
+.hint {
+	position: relative;
+	top: 220px;
+	text-transform: uppercase;
+	font: 20pt sans-serif;
+	background: #000000;
+	width: 277px;
+	padding: 8px 12px;
+}
+
+.hint:hover {
+	box-sizing: border-box;
+	opacity: 0.75;
+	position: relative;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	text-transform: none;
+}
+
+.hint:hover span{
+	display: none;
+}
+
+.c1 .hint:hover:before {
+	content: "The best places you must visit if you're going to Port Moresby.";
+}
+
+.c2 .hint:hover:before {
+	content: "The first impression about local citizen in Papua New Guinea";
+}
+
+.content-header {
+	height: 75px;
+	font: 20pt sans-serif;
+	background: #ffffff;
+	border: 1px solid black;
+	padding: 20px 20px;
+	letter-spacing: 1px;
+}
